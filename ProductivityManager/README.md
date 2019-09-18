@@ -1,11 +1,13 @@
-﻿Welcome in Productivity Manager for Windows
+﻿# **Welcome in Productivity Manager for Windows**
 
 Maing goal of this app it to increase productivity when you're working on yours PC.
 
-App is capable of:
-1.Blocking wepsites for certain amount of time
+## **App is capable of:**
 
-IMPORTANT vvv
+ 1. Blocking wepsites for certain amount of time
+
+## **IMPORTANT**
+
 App uses 'etc/hosts' file to fulfill it's purpose.
 'etc/hosts' is a text file which "act" as local DNS. You can place a line with an ip address and boinded to it domain name. Windows reads this file and if we want to connect to defined domain windows will reslove it as connection to given ip.
 Bounding domain name to loopback (127.0.0.1 / localhost) will act like 'blocker' to a website cause it will never be reached (unless you are hosting webapp/webpage on localhost).
@@ -18,10 +20,11 @@ Modern web browsers are using proxy by default. Please check if your browser usi
 Disable yours browser proxy if you want use main feature of this app. Remember, diffrent browsers configue proxy diffrent, some uses Windows defined proxies, some are using build in modules.
 Disablingone one browser proxy in many cases won't affect proxies defined for other browsers. 
 If you are having problem with yours browser proxy configuration feel free to google it :) I found step by step guides for chrome, ff, opera and ie with no problem.
-IMPORTANT ^^^
 
-Instructions:
+## **Instructions:**
+
 1. Turn on app with admin privileges. App icon should appear in system tray.
 2. Click an icon on system tray. Timer with a black list should appear.
 3. Choose time span for your productive time, fill blacklist with distracting sites.
 4. Click 'Start' to engage. Now websites should be blocked for choosen time span!
+
